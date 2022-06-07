@@ -1,0 +1,108 @@
+body{
+}
+
+header
+{
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	background: url("/static/images/Cloudy.svg");
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+	height: 500px;
+	background-color: white;
+
+}
+.share-button
+{
+	width: 70%; 
+	background-color:  #0077B6;
+	color: white;
+	margin: 0 auto; 
+	margin-top: 4%;
+	border-radius: 3px;
+	padding: 1%;
+	text-align: center;
+	cursor: pointer;
+}
+.share-button:hover{
+	transition: all 0.2s ease-in;
+	background-color: black;
+}
+.share-options img
+{
+	text-align: center;
+	margin: 0 auto;
+}
+.share-options button:hover{
+	transition: all 0.2s ease-in;
+	background-color: black;
+}
+.share-options
+{
+	width: 70%; 
+	background-color:#03045E ;
+	color: white;
+	margin: 0 auto;
+	margin-top: 15%; 
+	border-radius: 5px;
+	margin-bottom: 5%;
+	padding: 3%; 
+}
+.share-options input{
+	width: 100% ;
+	padding: 2%; 
+	font-size: 2em; 
+}
+.share-options button{
+	width: 100%; 
+	border: 0px;
+	background-color: #0077B6;
+	padding: 2%;
+	color: white;
+	font-size: 1.5em;
+}
+.download-file
+{
+	width: 70%; 
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%; 
+	background-color: #03045E ;
+	padding: 4%; 
+	border-radius: 3px;
+	color: white;
+}
+#download-button
+{
+	display: block;
+	width: 100%; 
+	border: 0px;
+	background-color: #0077B6;
+	padding: 2%;
+	color: white;
+	font-size: 1.5em;
+}
+#return-home
+{
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+	color: white;
+	border: 5px solid white;
+	padding: 2%;
+}
+#return-home:hover
+{
+	transition: all 0.5s ease-in;
+	border: 5px solid #00B4D8;
+	color: white;
+	background-color: #00B4D8;
+}
+@media only screen and (max-width: 600px) {
+  .download-file, .share-options, .share-button
+  {
+  	width: 95%;
+  }
+}
