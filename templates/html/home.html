@@ -61,7 +61,7 @@
 		        data: data,
 		        success: function(data) {
 		        	var x = JSON.parse(data);
-		        	var url = "http://127.0.0.1:8000/"
+		        	var url = "https://easyfileshare-app.herokuapp.com/"
 		        	var html = "<h1 class='display-2'>Please see your download link below</h1>";
 		        	html += "<input id='myInput' type='text' value='" + url + "download_file/" + x.url + "'/>";
 		        	html += "<button onclick='myFunction()'>Copy text</button>"; 
